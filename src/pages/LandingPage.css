@@ -1,0 +1,367 @@
+.landing-page {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  background-color: black;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.header h1{
+    font-size: 80px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Keeps header and business boost aligned horizontally */
+.top-section {
+  display: flex;
+  justify-content: space-between; /* Header on the left, Business Boost on the right */
+  align-items: flex-start;
+  width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Header styling */
+.header {
+  width: 95%;
+  margin-left: 40px;
+}
+
+.business-boost {
+  background-image: url("../assets/hero.jpg");
+  background-size: cover; /* Ensures it fills the section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  padding: 40px;
+  width: 55%;
+  align-self: flex-start;
+  position: relative;
+  right: 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between; /* Ensures even spacing */
+  height: 450px; /* Set height to prevent unwanted expansion */
+  background-color: #B3A0CF;
+  border-radius: 25px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+.boost-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1B1816;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.demo-call-button {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black; /* Ensures visible border */
+  border-radius: 25px;
+  padding: 12px 30px;
+  height: 50px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  width: 540px; /* Maintains button width */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+  
+  /* Adjust positioning for better responsiveness */
+  position: relative;
+  margin-top: 280px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Hover effect: subtle pop-out */
+.demo-call-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight white overlay */
+  transform: scale(1.05);
+}
+
+/* Click effect: press down animation */
+.demo-call-button:active {
+  transform: scale(0.95);
+}
+
+/* Icon styling if needed */
+.button-arrow {
+  width: 20px;
+  height: 20px;
+  margin-left: 320px;
+  
+}
+
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.profile-pictures {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-pictures img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.ideas-text {
+  margin-left: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* White Line & Subheadings */
+.line-below-ideas {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.white-line {
+  border: none;
+  border-top: 2px solid white;
+  width: 500px;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.subheadings {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  width: 50%;
+}
+
+/* Funnel Approach Styling */
+.solution {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.funnel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.funnel-top {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.funnel-bottom {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+/* Highlights */
+.footer {
+  display: flex;
+  justify-content: space-between; /* Separates left and right */
+  align-items: flex-start; /* Ensures proper alignment */
+  margin-top: 40px;
+  padding: 20px;
+  gap: 50px; /* Adds space between left and right sections */
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Left section: buttons stacked vertically */
+.footer-left {
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking */
+  margin-top: 70px;
+}
+
+.left-stack {
+  display: flex;
+  flex-direction: column; /* Stacks buttons */
+  gap: 20px; /* Adds spacing between buttons */
+}
+
+.left-item1 {
+  background-color:transparent;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  width: 200px; /* Ensures consistent button size */
+  margin-top: 20px;
+  text-align: left;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.left-item2{
+  background-color:transparent;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  width: 250px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.left-item3{
+  background-color:transparent;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Right section with text in one row */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  padding: 20px;
+  gap: 50px; /* Adds space between sections */
+}
+
+/* Left-side buttons stacked vertically */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.left-item {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Hover effect */
+.left-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Click effect */
+.left-item:active,
+.clicked {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Right-side text-based items */
+.footer-right {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Common card style */
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific card colors */
+.orange-card {
+  background-color: #FD5E09;
+  width: 230px;
+  height: 230px;
+  color: #1B1816;
+}
+
+.grey-card {
+  background-color: #E0E0E0;
+  width: 230px;
+  height: 230px;
+  color: #1B1816;
+  font-size: 30px;
+}
+.top-arrow{
+    width:60px;
+    height: 60px;
+    margin-left: 170px;
+    color: #1B1816;
+}
+
+.yellow-card {
+  background-color: #FDC959;
+  color: #1B1816;
+  width: 230px;
+  height: 230px;
+}
+
+/* Title text */
+.card-title {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom:0px;
+}
+.card-title2 {
+  margin-top:0px;
+  font-size: 16px;
+  margin-bottom: 180px;
+}
+.card-title3{
+    margin-top: 100px;
+    margin-bottom: -20px;
+
+}
+.card-title4{
+    margin-bottom: 0px;
+}
+/* 700+ count */
+.card-count {
+  font-size: 70px;
+  font-weight: bold;
+  
+}
+
+/* Decorative icons */
+.card-icon {
+  font-size: 24px;
+  margin-top: auto;
+}
+

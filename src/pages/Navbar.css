@@ -1,0 +1,89 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px 30px;
+}
+
+/* Logo section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Brand name container */
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* Integra text */
+.integra {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-left: 2px;
+}
+
+/* Magna text */
+.magna {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+/* Navigation menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: #00aaff;
+}
+
+/* Signup section */
+.navbar-signup {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-signup a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-signup a:hover {
+  color: #00aaff;
+}
+
+/* Signup icon */
+.signup-icon {
+  width: 22px;
+  height: 22px;
+  
+  background-size: cover;
+}
